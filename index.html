@@ -121,13 +121,17 @@
             font-family: 'Cormorant Garamond', serif;
             font-size: clamp(4rem, 12vw, 8rem);
             font-weight: 300;
-            line-height: 0.9;
+            line-height: 1.1;
             margin-bottom: 30px;
             background: linear-gradient(135deg, var(--cosmic-purple), var(--cosmic-pink));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            letter-spacing: -0.05em;
+            letter-spacing: 0.05em;
+            position: relative;
+            z-index: 10;
+            overflow: visible;
+            padding-bottom: 20px;
         }
 
         .hero .subtitle {
@@ -418,11 +422,10 @@
 
         <section class="hero">
             <h1>The Big 3</h1>
-            <p class="subtitle">You are not one sign. You are three.</p>
             <p class="tagline">Stop reducing yourself to a single archetype. <br>Learn to work with the full complexity of who you actually are.</p>
             
             <div class="cta-primary">
-                <a href="#enroll" class="enroll-btn">Begin Your Journey</a>
+                <a href="https://astro-winter-course.lovable.app/big3/checkout" class="enroll-btn">Begin Your Journey</a>
                 <div>
                     <div class="price">$33</div>
                     <div class="price-detail">One-time investment in self-knowledge</div>
@@ -505,9 +508,9 @@
         </div>
 
         <section class="final-cta" id="enroll">
-            <h2>Ready to meet all three sides of yourself?</h2>
+            <h2>Ready to meet all three of yourself?</h2>
             <p>This is grounded astrology for people who want real transformation—not surface-level personality quizzes.</p>
-            <a href="#" class="enroll-btn">Enroll Now – $33</a>
+            <a href="https://astro-winter-course.lovable.app/big3/checkout" class="enroll-btn">Enroll Now – $33</a>
         </section>
 
         <footer>
